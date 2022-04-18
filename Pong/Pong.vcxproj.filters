@@ -4,10 +4,48 @@
     <Filter Include="src">
       <UniqueIdentifier>{10708d8d-48af-43f3-a363-c8ff957f3e3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{a4b79843-2153-4441-8930-57f4de485f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ball">
+      <UniqueIdentifier>{908c6b41-e072-44ee-9f8d-e2ae3da764e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{c8fd169e-8f8a-4af0-a25b-91768fdb1179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Button">
+      <UniqueIdentifier>{f3b11c0d-3d0c-4ed9-8d2d-23e2a90a484e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Source.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ball.cpp">
+      <Filter>src\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>src\Button</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Headers\Game.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Headers\Ball.h">
+      <Filter>src\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Headers\Player.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Headers\Button.h">
+      <Filter>src\Button</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
