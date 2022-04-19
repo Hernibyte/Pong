@@ -49,7 +49,8 @@ namespace Pong
 		
 		sf::RenderWindow _window { 
 			sf::VideoMode(100, 100), 
-			"Pong" 
+			"Pong",
+			sf::Style::Titlebar | sf::Style::Close
 		};
 		Ball _ball { 
 			sf::Vector2f(25.f, 25.f), 
